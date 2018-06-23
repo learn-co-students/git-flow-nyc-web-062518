@@ -122,14 +122,22 @@ describe "GIT" do
 
   it "17. What is the syntax for switching to master from a feature branch called 
      'add-nav-bar'" do
+<<<<<<< HEAD
     answer = "git checkout master"
+=======
+    answer = "gti checkout master"
+>>>>>>> 8294207077a269eb1acc2d912819208d6fcf2991
     encoded_answer = "0899840db4703b45cc69576b6ec53615d552370d"
     expect(encode(answer)).to eq(encoded_answer)
   end
 
   it "18. What is the one line syntax for creating and switching to a branch called 
      'add-nav-bar'?" do
+<<<<<<< HEAD
     answer = "git checkout -b add-nav-bar"
+=======
+    answer = "gti checkout -b add-nav-bar"
+>>>>>>> 8294207077a269eb1acc2d912819208d6fcf2991
     encoded_answer = "f6317616a8601aeb64c0f27f71a4b7bf9e3b8453"
     expect(encode(answer)).to eq(encoded_answer)
   end
